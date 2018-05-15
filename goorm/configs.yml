@@ -1,0 +1,219 @@
+---
+
+# Sets editor font
+# Valid options are "Source Code Pro", "Courier New", "Lucida Console", "Nanum Gothic Coding" and "D2Coding"
+# Default is "Source Code Pro"
+"editor.font_family": "Source Code Pro"
+
+# Set value between 11 and 40. Default is 12
+"editor.font_size": "15"
+
+# Spacing between lines
+# Set value between 0 and 7. Default is 3
+"editor.line_spacing": "3"
+
+# The number of spaces a tab is considered equal to
+# Default is 4
+"editor.indent_unit": "2"
+
+# Sets typing effect. Valid options are off, 1, 2 and 3
+# 1, 2 and 3 refer to effects called "Wreck it!", "Stardust", and "Rainbow bubbles", respectively.
+# Default is off
+"editor.exciting_typing": "off"
+
+# Indicates the intensity of "editor.exciting_typing". The higher the number, the stronger the power.
+# Set number between 0 and 5. Default is 0
+"editor.exciting_typing_intensity": "0"
+
+# Set to "false" to insert spaces when tab is pressed. Default is "true"
+"editor.indent_with_tabs": "false"
+
+# Shows guideline of indentation. Set to false to hide it.
+# Default is true
+"editor.indent_guide": true
+
+# Set to "false" to hide line numbers at left side of editor.
+# Default is "true"
+"editor.show_line_numbers": true
+
+# Highlight current cursor line
+"editor.highlight_current_cursor_line": true
+
+# Enables auto pairing of brackets
+# Default is true
+"editor.auto_close_brackets": true
+
+# Sets editor theme.
+# "default", "eclipse", "elegant" and "neat" is a light background theme
+# The rest is a dark background theme
+# Valid options are "default", "ambiance", "blackboard",
+# "cobalt", "eclipse", "erlang-dark", "lesser-dark",
+# "monokai", "rubyblue", "vibrant-ink", "xq-dark",
+# "elegant", "neat", "night" and "sublime-text"
+# Default is "default"
+"editor.theme": "monokai"
+
+# Disables horizontal scrolling if true
+# Default is true
+"editor.line_wrapping": false
+
+# Set to true and display vertical rulers
+# Default is false
+"editor.rulers": false
+
+# Set to "true" and you can zoom-in/out with Ctrl + mouse wheel rolling.
+# Default is "false"
+"editor.wheel_zoom": false
+
+# Set to "true" to enables auto save
+# Default is "false"
+"editor.auto_save": false
+
+# When a file is selected from project explorer, activate editor with the file if it is already opened
+# Default is "true"
+"editor.tree_panel_sync": false
+
+# Enables auto complete to be triggered automatically when typing
+# Set to "false" and you can trigger auto complete only via shortcut
+# Default is "true"
+"editor.autocomplete": "false"
+
+# Set to "forward" to show auto complete results that are only forward matches
+# Valid options are "all" and "forward"
+# Default is "all"
+"editor.autocomplete_matching": "forward"
+
+# Sets editor mode
+# Valid options are "default", "vim", "emacs" and "emmet"
+"editor.mode": "emmet"
+
+# Sets terminal font
+# Valid options are "Source Code Pro", "Courier New", "Lucida Console", "Nanum Gothic Coding" and "D2Coding"
+# Default is "Source Code Pro"
+"terminal.font_family": "Source Code Pro"
+
+# Set value between 11 and 40. Default is 12
+"terminal.font_size": "12"
+
+# Spacing between lines
+# Set value between 0 and 7. Default is 3
+"terminal.line_spacing": "3"
+
+# Sets terminal font color
+# Valid options are "white", "red", "blue", "green" and "yellow"
+# Default is "white"
+"terminal.font_color": "white"
+
+# It is not recommended to edit shortcut with this file.
+# Setting duplicate shortcut values may cause unpredictable behavior
+# Please use it only for copying/pasting purposes.
+"shortcut.theme": "default"
+"shortcut.debug.start": "None"
+"shortcut.debug.step_in": "None"
+"shortcut.debug.step_over": "None"
+"shortcut.debug.step_out": "None"
+"shortcut.debug.continue": "None"
+"shortcut.debug.terminate": "None"
+"shortcut.debug.toggle_breakpoint": "None"
+"shortcut.scm.commit": "Alt+Shift+C"
+"shortcut.scm.update": "Alt+Shift+U"
+"shortcut.edit.auto_formatting": "Ctrl+K"
+"shortcut.edit.comment_selected": "Ctrl+/"
+"shortcut.edit.copy": "Ctrl+C"
+"shortcut.edit.cut": "Ctrl+X"
+"shortcut.edit.delete": "Backspace"
+"shortcut.edit.find_and_replace": "Ctrl+F"
+"shortcut.edit.find_next": "Ctrl+G"
+"shortcut.edit.find_previous": "Ctrl+Shift+G"
+"shortcut.edit.replace": "Alt+Ctrl+F"
+"shortcut.edit.go_to_line": "Alt+Ctrl+L"
+"shortcut.edit.nav_history_back": "Alt+Ctrl+Down"
+"shortcut.edit.nav_history_forward": "Alt+Ctrl+Up"
+"shortcut.edit.magnify_font": "Ctrl+="
+"shortcut.edit.minify_font": "Ctrl+-"
+"shortcut.edit.default_font": "Ctrl+0"
+"shortcut.edit.toggle_exciting_typing": "Ctrl+Shift+E"
+"shortcut.edit.paste": "Ctrl+V"
+"shortcut.edit.preference": "Alt+P"
+"shortcut.edit.redo": "Ctrl+Y"
+"shortcut.edit.search": "Alt+H"
+"shortcut.edit.jump_to_definition": "Ctrl+I"
+"shortcut.edit.select_all": "Ctrl+A"
+"shortcut.edit.toggle_bookmark": "Ctrl+F2"
+"shortcut.edit.next_bookmark": "F2"
+"shortcut.edit.prev_bookmark": "Shift+F2"
+"shortcut.edit.clear_bookmark": "Ctrl+Shift+F2"
+"shortcut.edit.autocomplete": "Ctrl+Return"
+"shortcut.edit.auto_import": "Ctrl+Shift+O"
+"shortcut.edit.undo": "Ctrl+Z"
+"shortcut.edit.merge_view": "Alt+Shift+M"
+"shortcut.edit.next_diff": "Alt+Shift+="
+"shortcut.edit.prev_diff": "Alt+Shift+-"
+"shortcut.edit.merge_diff": "Alt+Shift+/"
+"shortcut.file.close": "Alt+X"
+"shortcut.file.close_all": "Alt+Shift+X"
+"shortcut.file.delete": "Alt+Shift+D"
+"shortcut.file.open_file": "Ctrl+O"
+"shortcut.file.reopen_closed_file": "Alt+Ctrl+T"
+"shortcut.file.print": "Ctrl+P"
+"shortcut.file.rename": "None"
+"shortcut.file.save": "Ctrl+S"
+"shortcut.file.save_all": "Alt+Meta+S"
+"shortcut.file.save_as": "Ctrl+Shift+S"
+"shortcut.file.duplicate": "Ctrl+Shift+A"
+"shortcut.help.view_all_shortcuts": "Ctrl+H"
+"shortcut.help.view_editor_shortcuts": "Ctrl+Shift+H"
+"shortcut.project.build_project": "F5"
+"shortcut.project.refresh": "None"
+"shortcut.project.run": "Shift+F5"
+"shortcut.window.bottom_layout_console": "Alt+Shift+8"
+"shortcut.window.bottom_layout_debug": "Alt+Shift+7"
+"shortcut.window.bottom_layout_search": "Alt+Shift+9"
+"shortcut.window.bottom_layout_show_hide": "Alt+Shift+B"
+"shortcut.window.hide_all_window": "Alt+Shift+H"
+"shortcut.window.top_layout_show_hide": "Alt+Shift+A"
+"shortcut.window.left_layout_show_hide": "Alt+Shift+L"
+"shortcut.window.left_layout_toggle_project_explorer": "Alt+Shift+1"
+"shortcut.window.new_terminal_window": "Alt+Shift+T"
+"shortcut.window.next_window": "Alt+Shift+]"
+"shortcut.window.previous_window": "Alt+Shift+["
+"shortcut.window.layout_switcher": "Alt+Shift+Return"
+"shortcut.window.right_layout_show_hide": "Alt+Shift+R"
+"shortcut.window.right_layout_toggle_chat": "Alt+Shift+3"
+"shortcut.window.right_layout_toggle_history": "Alt+Shift+5"
+"shortcut.window.right_layout_toggle_outline": "Alt+Shift+6"
+"shortcut.window.right_layout_toggle_slide": "Alt+Shift+4"
+"shortcut.window.tile_left": "Ctrl+Shift+["
+"shortcut.window.tile_right": "Ctrl+Shift+]"
+"shortcut.window.toggle_full_workspace": "Alt+Shift+W"
+"shortcut.window.split_vertical": "Alt+Shift+V"
+"shortcut.window.split_horizontal": "Alt+Shift+H"
+"shortcut.window.close_workspace": "Alt+C"
+"shortcut.window.go_to_project_explorer": "Alt+Shift+E"
+"shortcut.dev.start": "Alt+S"
+"shortcut.dev.build": "Alt+B"
+"shortcut.dev.update": "Alt+U"
+"shortcut.emmet.expand_abbreviation": "None"
+"shortcut.emmet.expand_abbreviation_with_tab": "None"
+"shortcut.emmet.balance_outward": "None"
+"shortcut.emmet.balance_inward": "None"
+"shortcut.emmet.matching_pair": "None"
+"shortcut.emmet.wrap_with_abbreviation": "None"
+"shortcut.emmet.next_edit_point": "None"
+"shortcut.emmet.prev_edit_point": "None"
+"shortcut.emmet.select_line": "None"
+"shortcut.emmet.merge_lines": "None"
+"shortcut.emmet.toggle_comment": "None"
+"shortcut.emmet.split_join_tag": "None"
+"shortcut.emmet.remove_tag": "None"
+"shortcut.emmet.evaluate_math_expression": "None"
+"shortcut.emmet.increment_number_by_1": "None"
+"shortcut.emmet.decrement_number_by_1": "None"
+"shortcut.emmet.increment_number_by_01": "None"
+"shortcut.emmet.decrement_number_by_01": "None"
+"shortcut.emmet.increment_number_by_10": "None"
+"shortcut.emmet.decrement_number_by_10": "None"
+"shortcut.emmet.select_next_item": "None"
+"shortcut.emmet.select_previous_item": "None"
+"shortcut.emmet.reflect_css_value": "None"
+"shortcut.emmet.insert_formatted_line_break_only": "None"
