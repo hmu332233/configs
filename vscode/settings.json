@@ -1,4 +1,5 @@
 {
     "window.zoomLevel": 1, // for window
-    "workbench.colorTheme": "Atom One Dark"
+    "workbench.colorTheme": "Atom One Dark",
+    "editor.tabSize": 2
 }
