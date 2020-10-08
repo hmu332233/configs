@@ -6,3 +6,7 @@
   - goorm ide -> preference -> Edit Preference File에 적용
 - theme.css
   - goorm ide -> preference -> theme에 적용
+
+- code-server
+  - 구름IDE내 code server용 셋팅
+  - settings.json
