@@ -49,7 +49,15 @@
     "command": "workbench.action.nextEditor"
   },
   {
-      "key": "shift+alt+[",
-      "command": "workbench.action.previousEditor"
+    "key": "shift+alt+[",
+    "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "alt+x",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "shift+alt+x",
+    "command": "workbench.action.closeAllEditors"
   }
 ]
