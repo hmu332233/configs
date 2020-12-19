@@ -70,8 +70,7 @@
   },
   {
     "key": "alt+h",
-    "command": "workbench.view.search",
-    "when": "!searchViewletVisible"
+    "command": "workbench.view.search"
   },
   {
     "key": "shift+cmd+f",
