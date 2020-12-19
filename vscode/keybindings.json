@@ -59,5 +59,23 @@
   {
     "key": "shift+alt+x",
     "command": "workbench.action.closeAllEditors"
+  },
+  {
+    "key": "shift+alt+t",
+    "command": "workbench.action.terminal.new"
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "-workbench.action.terminal.new"
+  },
+  {
+    "key": "alt+h",
+    "command": "workbench.view.search",
+    "when": "!searchViewletVisible"
+  },
+  {
+    "key": "shift+cmd+f",
+    "command": "-workbench.view.search",
+    "when": "!searchViewletVisible"
   }
 ]
